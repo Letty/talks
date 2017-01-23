@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TextVis</title>
+
+	<script src="bower_components/d3/d3.min.js"></script>
+	<script src="main.js"></script>
+
+	<style>
+		#cloud{
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.txt{
+			margin:2px;
+		}
+	</style>
+
+</head>
+<body>
+
+<div>
+	<h3>Analyse this Text</h3>
+	<textarea id="txtbx" rows="5" cols="35"></textarea> <br>
+	<input type="submit" id="submit" value="Submit">
+</div>
+
+<div id="cloud"></div>
+
+</body>
+</html>
