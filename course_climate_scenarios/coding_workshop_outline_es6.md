@@ -108,6 +108,19 @@
         // The quick brown fox jumps over the lazy dog.
         ```
 
+    - Function binded to Variables
+        ```javascript
+        let sumAll = (arr) => {
+            let sum = 0
+            arr.forEach((a) => {
+                sum += a;
+            })
+            return sum;
+        }
+
+        let b = sumAll([1,3,3,7]); // 14
+        ```
+
 ### D3 Example
 
 ## Coding Workshop Two
