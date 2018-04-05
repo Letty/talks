@@ -53,28 +53,28 @@
             ```
     - Loops
         + for [for on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-        ```javascript
-        for(let i = 0; i < 10; i++){
-            console.log(i)
-        }
-        ```
+            ```javascript
+            for(let i = 0; i < 10; i++){
+                console.log(i)
+            }
+            ```
         + forEach [Array.forEach on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-        ```javascript
-        let arr = ['The','quick','brown','fox','jumps','over','the','lazy','dog.'];
-        let sentence = '';
+            ```javascript
+            let arr = ['The','quick','brown','fox','jumps','over','the','lazy','dog.'];
+            let sentence = '';
 
-        arr.forEach((word) => {
-            sentence += word+' ';
-            })
-        console.log(sentence)
-        ```
+            arr.forEach((word) => {
+                sentence += word+' ';
+                })
+            console.log(sentence)
+            ```
         + while / do while [while on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
-        ```javascript
-        let i = 0;
-        while(i < 10){
-            console.log(i)
-        }
-        ```
+            ```javascript
+            let i = 0;
+            while(i < 10){
+                console.log(i)
+            }
+            ```
 * Functions
 
 ## Coding Workshop Two
