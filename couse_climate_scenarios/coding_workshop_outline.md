@@ -76,37 +76,37 @@
             }
             ```
 * Functions
+    - With return value
+        ```javascript
+        function calcDigitSum(numb){
+            let dsum = 0;
+            let numbs = numb.toString().split('').map((val)=> {
+                return parseInt(val);
+            });
 
-With return value
-```javascript
-function calcDigitSum(numb){
-    let dsum = 0;
-    let numbs = numb.toString().split('').map((val)=> {
-        return parseInt(val);
-    });
+            numbs.forEach((n) => { 
+                dsum += n;
+            })
+            return dsum;
+        }
 
-    numbs.forEach((n) => { 
-        dsum += n;
-    })
-    return dsum;
-}
+        let ds = calcDigitSum(1337); // ds = 14
+        ```
 
-let ds = calcDigitSum(1337); // ds = 14
-```
+    - Without return value
+        ```javascript
+        function showConcatenatedArray(arr){
+            let conc = '';
 
-Without return value
-```javascript
-function showConcatenatedArray(arr){
-    let conc = '';
-
-    arr.forEach((a) => {
-        conc += a+' ';
-    });
-    console.log(conc)
-}
-let arr = ['The','quick','brown','fox','jumps','over','the','lazy','dog.'];
-showConcatenatedArray(arr); // The quick brown fox jumps over the lazy dog.
-```
+            arr.forEach((a) => {
+                conc += a+' ';
+            });
+            console.log(conc)
+        }
+        let arr = ['The','quick','brown','fox','jumps','over','the','lazy','dog.'];
+        showConcatenatedArray(arr); 
+        // The quick brown fox jumps over the lazy dog.
+        ```
 
 
 ## Coding Workshop Two
