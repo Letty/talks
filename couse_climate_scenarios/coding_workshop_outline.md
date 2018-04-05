@@ -21,29 +21,31 @@
         + `let d = [1,2,45,21,52,66,89,123];`
         + `let e = [1,'hello', 234.32,'foo'];`
     - Objects
-        + ```let f = {'name': 'John', 'age': 42} ```
+        + `let f = {'name': 'John', 'age': 42} `
 * Control Flows
     - Conditions
         + if..else
-```
-if (condition === true){
-    doSomething();
-}else{ // condition false
-    doAnotherThing();
-}
-```
+            ```javascript
+            if (condition === true){
+                doSomething();
+            }else{ // condition false
+                doAnotherThing();
+            }
+            ```
+       
         + switch
-```
-switch(expression):
-    case value1:
-        do();
-        break;
-    case value2:
-        doTwo();
-        break;
-    default:
-        doDefault();
-```
+            ```javascript
+            switch(expression):
+                case value1:
+                    do();
+                    break;
+                case value2:
+                    doTwo();
+                    break;
+                default:
+                    doDefault();
+            ```
+
     - Loops
         + for
         + forEach
