@@ -12,7 +12,7 @@
 * CSS
 * JavaScript
 * Browser Tools - Inspector, Console 
-* JSFiddle
+* [JSFiddle](https://jsfiddle.net/)
 
 ### Coding
 * Variables and Data structure
@@ -108,10 +108,11 @@
         // The quick brown fox jumps over the lazy dog.
         ```
 
+### D3 Example
 
 ## Coding Workshop Two
 
 ## Links
 
 * [Statements on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
-* [](   )
+* [ES6 Features](http://es6-features.org/#Constants)
