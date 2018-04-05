@@ -1,5 +1,10 @@
 # Visualizing Climate Scenarios
 
+**Table of Contents**
+1. [Coding Workshop One](#coding-workshop-one)
+2. [Coding Workshop Two](#coding-workshop-two)
+3. [Links](#links)
+
 ## Coding Workshop One
 
 ### Basic WebDev
@@ -45,7 +50,6 @@
                 default:
                     doDefault();
             ```
-
     - Loops
         + for
         + forEach
@@ -53,3 +57,5 @@
 * Functions
 
 ## Coding Workshop Two
+
+## Links
