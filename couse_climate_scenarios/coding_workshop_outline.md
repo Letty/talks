@@ -29,7 +29,7 @@
         + `let f = {'name': 'John', 'age': 42} `
 * Control Flows
     - Conditions
-        + if..else
+        + if..else [if..else on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
             ```javascript
             if (condition === true){
                 doSomething();
@@ -38,7 +38,7 @@
             }
             ```
        
-        + switch
+        + switch [switch defintion on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
             ```javascript
             switch(expression){
                 case value1:
@@ -52,11 +52,34 @@
             }
             ```
     - Loops
-        + for
-        + forEach
-        + while / do while
+        + for [for on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+        ```javascript
+        for(let i = 0; i < 10; i++){
+            console.log(i)
+        }
+        ```
+        + forEach [Array.forEach on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+        ```javascript
+        let arr = ['The','quick','brown','fox','jumps','over','the','lazy','dog.'];
+        let sentence = '';
+
+        arr.forEach((word) => {
+            sentence += word+' ';
+            })
+        console.log(sentence)
+        ```
+        + while / do while [while on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+        ```javascript
+        let i = 0;
+        while(i < 10){
+            console.log(i)
+        }
+        ```
 * Functions
 
 ## Coding Workshop Two
 
 ## Links
+
+* [Statements on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+* [](   )
