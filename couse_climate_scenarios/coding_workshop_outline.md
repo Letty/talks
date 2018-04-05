@@ -40,7 +40,7 @@
        
         + switch
             ```javascript
-            switch(expression):
+            switch(expression){
                 case value1:
                     do();
                     break;
@@ -49,6 +49,7 @@
                     break;
                 default:
                     doDefault();
+            }
             ```
     - Loops
         + for
