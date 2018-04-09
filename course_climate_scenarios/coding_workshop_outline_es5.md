@@ -130,7 +130,11 @@
         var b = sumAll([1,3,3,7]); // 14
         ```
 
-### D3 Example
+### Examples
+* [D3js with SVG ES5](https://github.com/SensesProject/fhp-course-material/blob/master/svg_es5.html)
+* [D3js with SVG ES6](https://github.com/SensesProject/fhp-course-material/blob/master/svg_es6.html)
+* [Canvas ES5](https://github.com/SensesProject/fhp-course-material/blob/master/canvas_es5.html)
+* [Canvas ES6](https://github.com/SensesProject/fhp-course-material/blob/master/canvas_es6.html)
 
 ## Coding Workshop Two
 
