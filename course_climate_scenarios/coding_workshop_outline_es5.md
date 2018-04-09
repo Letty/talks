@@ -127,6 +127,9 @@
 
 ## Links
 
+* [Browser Developer Tools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
 * [Statements on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
 * [Operands on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 * [ES6 Features](http://es6-features.org/#Constants)
+* [Canvas API on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+* [D3js Documentation](https://github.com/d3/d3/wiki)
