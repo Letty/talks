@@ -128,4 +128,5 @@
 ## Links
 
 * [Statements on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+* [Operands on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators)
 * [ES6 Features](http://es6-features.org/#Constants)
