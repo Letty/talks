@@ -18,9 +18,18 @@
 * find a suitable editor for your OS (Sublime Text, Notepad++, Atom)
 * install a webserver
     * on mac os and linux is a [python](https://www.python.org/) server already installed, you just need to start this server in the directory of your project 
+    * you need to navigate with the Command Line (Terminal) to your project folder
+        - open the Terminal
+        - navigate to your folder in finder / explorer
+        - type in the terminal `cd ` note: their is a space!
+        - drag the folder in the terminal
+        - now you have something like this in your terminal `cd /User/Student/project-folder`
+        - hit enter
+        - now you are in your directory, run the server
     * command is ```python -m SimpleHTTPServer <portnumber>```
-    * or if you use pyhton 3 ```python -m http.server <portnumber>``
+    * or if you use pyhton 3 ``` python -m http.server <portnumber>```
     replace  ```<portnumber>``` with a four digit number
+    * if you use Windows, the command is `py` (when you install Python 3)
     * check your browser under  ```localhost:<portnumber>```
 
 ### Coding
@@ -146,3 +155,4 @@
 * [ES6 Features](http://es6-features.org/#Constants)
 * [Canvas API on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 * [D3js Documentation](https://github.com/d3/d3/wiki)
+* [Chroma JS](https://github.com/gka/chroma.js)
