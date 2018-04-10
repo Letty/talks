@@ -44,7 +44,13 @@ window.onload = function () {
 			})
 			.style('font-size', function (d) {
 				return fontsize(d.count) + 'px';
-			});
+			})
+			.on('mouseover', function(d){
+				console.log(d);
+			})
+			.on('mouseout', function(d){
+				console.log('we are leaving obj +'+d.val);
+		});
 	};
 
 	countInput = function () {
@@ -60,6 +66,8 @@ window.onload = function () {
 			count[d] = count[d] + 1;
 		});
 
+		console.log(count);
+
 		// convert obj to array
 		for (var key in count) {
 			if (count.hasOwnProperty(key)) {
@@ -69,5 +77,14 @@ window.onload = function () {
 				});
 			}
 		}
+
+		console.log(data);
 	};
+
+
+
+
+
+
+
 };
