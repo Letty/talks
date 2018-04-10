@@ -6,7 +6,13 @@
 
 ## Programing Fundamentals
 
+**Todo**
+
 * Mini intro ? -> what is programing, difference hardware / software?
+* Class and Object
+* things to say -> different programming concepts (oop, functional, pointer, multidim arrays like matlab, databases)
+
+
 * note: the following chapter is not for a specific programing language, its more a generalization to describe the basic concepts in programing 
 * language in the text means programing language 
 
