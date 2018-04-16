@@ -119,6 +119,37 @@ function calcRectArea(width, height)
 
 ### Loops and Iterations
 
+*For*
+```
+for(i = 0; i < 10; i++)
+    console.log(i)
+
+```
+*ForEach* 
+```
+arr = ['The','quick','brown','fox','jumps','over','the','lazy','dog.']
+sentence = ''
+
+arr.forEach(word)
+    sentence += word+' '
+
+print(sentence)
+```
+*While* 
+```
+i = 0
+while(i < 10)
+    print(i)
+
+```
+*Do While* 
+```
+i = 0
+while(i < 10)
+    print(i)
+
+```
+
 ## WebDev
 ## Python
 
