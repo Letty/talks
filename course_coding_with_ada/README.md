@@ -4,7 +4,7 @@
 2. WebDev (HTML/CSS/JavaScript)
 3. Python
 
-## Programing Fundamentals
+# Programing Fundamentals
 
 **Todo**
 
@@ -16,7 +16,7 @@
 * note: the following chapter is not for a specific programing language, its more a generalization to describe the basic concepts in programing 
 * language in the text means programing language 
 
-### Data Types, Variables and Assigning Values
+## Data Types, Variables and Assigning Values
 
 *Data Types* 
 
@@ -37,7 +37,7 @@
 * common syntax are `a = 5` or `a := 5`
  
 
-### Conditions
+## Conditions
 
 * or lets call it decision making
 * programs make decisions based on variables, status or input by user
@@ -105,7 +105,7 @@
             print('I'm lost..')
     ```
 
-### Functions
+## Functions
 
 * structuring code
 * reoccurring calculations, parts of the program 
@@ -117,13 +117,12 @@ function calcRectArea(width, height)
     
 ```
 
-### Loops and Iterations
+## Loops and Iterations
 
 *For*
 ```
 for(i = 0; i < 10; i++)
     console.log(i)
-
 ```
 *ForEach* 
 ```
@@ -140,16 +139,67 @@ print(sentence)
 i = 0
 while(i < 10)
     print(i)
-
 ```
 *Do While* 
 ```
 i = 0
 while(i < 10)
     print(i)
-
 ```
 
-## WebDev
-## Python
+## Cooking Algorithms
+
+```
+// Ingredients are variables
+flour   = '400g Flour'
+milk    = '750ml Milk'
+salt    = 'a pinch salt'
+eggs    = '3 eggs'
+water   = 'sparkling water'
+butter  = 'some butter'
+
+// Cooking equipment are constants
+PAN     = 'One big Pan'
+STOVE   = 'Stove to cook on'
+
+// prepare the dough
+bowl = mixing([flour, milk, salt])
+wait('30min')
+bowl = mixing([water], bowl)
+
+STOVE.heat()
+
+// make one pancake
+dough = make_portioning(bowl)
+PAN.put_in(butter)
+wait('30sec')
+PAN.put_in(dough)
+wait('30sec')
+PAN.switch_side()
+wait('30sec')
+PAN.empty()
+
+function mixing(ingredients, bowl)
+    mixing_bowl = empty
+    if(bowl)
+        mixing_bowl = bowl
+
+    ingredients.forEach(ing)
+        mixing_bowl = mixing_bowl + ing
+    stir(bowl)
+
+    return bowl
+
+function stir(bowl)
+    print('stir stir stir')
+
+function wait(time)
+    print('i\'m waiting for some '+time)
+
+function make_portions(bowl)
+    dough = 'one part of the dough'
+```
+
+# WebDev
+# Python
 
