@@ -106,6 +106,17 @@
     ```
 
 ### Functions
+
+* structuring code
+* reoccurring calculations, parts of the program 
+
+```
+function calcRectArea(width, height)
+    area = width * height
+    return area
+    
+```
+
 ### Loops and Iterations
 
 ## WebDev
