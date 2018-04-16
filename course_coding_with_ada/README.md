@@ -87,6 +87,8 @@
 
 * Similar to a nested if else
 * usually used for comparison (no greater or lower possible)
+* a default value can be defined
+* without breaks, multiple cases can be applied
     ```
     status = 'fetch data'
     switch(status)
