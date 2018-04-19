@@ -147,6 +147,25 @@
 
 ## Coding Workshop Two
 
+* Change geometric primitives (rect into circle svg and canvas)
+* Interaction and Transitions
+* Showing differences (?)
+
+SVG
+
+* [Basic Shapes SVG on MDN (Scroll to "SVG elements by categorie")](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
+* [Basic Shapes SVG on W3C](https://www.w3.org/TR/SVG/shapes.html)
+* [Eventhandling with D3js](https://github.com/d3/d3-selection/blob/master/README.md#handling-events)
+* [D3 Example - Barchart with Tooltip](http://bl.ocks.org/Caged/6476579)
+* [D3 Example with Interaction and Transitions](https://bl.ocks.org/mbostock/3885705)
+
+Canvas
+
+* [Drawing Shapes with canvas on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
+* [Basic Animations with Canvas on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations)
+* [Mouse interaction with Hit Regions](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Hit_regions_and_accessibility)
+* [Canvas Tutorial for Shapes, Animation and Mouse Detection](https://www.html5canvastutorials.com/)
+
 ## Links
 
 * [Browser Developer Tools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools)
