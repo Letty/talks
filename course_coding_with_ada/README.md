@@ -11,8 +11,8 @@
 * Grace Hopper - [Wikipedia](https://en.wikipedia.org/wiki/Grace_Hopper) - [Youtube Video](https://www.youtube.com/watch?v=S6sh8CxwWx8)
 * Erna Schneider Hoover [Wikipedia](https://en.wikipedia.org/wiki/Erna_Schneider_Hoover)
 
-* Becky Stern - DIY, Making, Electronics [Youtube Channel](https://www.youtube.com/channel/UCsI_41SZafKtB5qE46WjlQQ)
-* Limor Fried Founder of Adafruits- [Wikipedia](https://en.wikipedia.org/wiki/Limor_Fried) - [Adafruits](https://www.adafruit.com/)
+* Becky Stern - DIY, Making, Electronics - [Youtube Channel](https://www.youtube.com/channel/UCsI_41SZafKtB5qE46WjlQQ)
+* Limor Fried - Founder of Adafruits- [Wikipedia](https://en.wikipedia.org/wiki/Limor_Fried) - [Adafruits](https://www.adafruit.com/)
 
 # Programing Fundamentals
 
