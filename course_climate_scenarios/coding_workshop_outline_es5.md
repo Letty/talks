@@ -159,6 +159,7 @@ SVG
 * [Eventhandling with D3js](https://github.com/d3/d3-selection/blob/master/README.md#handling-events)
 * [D3 Example - Barchart with Tooltip](http://bl.ocks.org/Caged/6476579)
 * [D3 Example with Interaction and Transitions](https://bl.ocks.org/mbostock/3885705)
+* [D3 Transitions](https://github.com/d3/d3-transition)
 
 Canvas
 
