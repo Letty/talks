@@ -18,7 +18,7 @@
 
 ## Data Types, Variables and Assigning Values
 
-*Data Types* 
+**Data Types** 
 
 * every programing language has their own data types
 * basic types which appear in most languages
@@ -26,12 +26,12 @@
     - numbers - floating and integer numbers
     - strings - everything written
 
-*Variables*
+**Variables**
 
 * Constant (variables) are values, like Pi, who never change during the program
 * variables are changing values in the program
 
-*Assigning Values*
+**Assigning Values**
 
 * binding concrete values (numbers, words, complex data structures) to a variable is called assigning
 * common syntax are `a = 5` or `a := 5`
@@ -42,7 +42,7 @@
 * or lets call it decision making
 * programs make decisions based on variables, status or input by user
 
-*If .. Else*
+**If .. Else**
 
 * this structures can check, whether a condition is true or false
 * a basic form can be just one condition 
@@ -83,7 +83,7 @@
     
     ```
 
-*Switch Case*
+**Switch Case**
 
 * Similar to a nested if else
 * cleaner in terms of code appearance
@@ -123,12 +123,12 @@ function calcRectArea(width, height)
 * Iterating over datastructures
 * fe. applaying data preprocessing, draw something for every element in the datastructure
 
-*For*
+**For**
 ```
 for(i = 0; i < 10; i++)
     console.log(i) // 0..9
 ```
-*ForEach* 
+**ForEach** 
 ```
 arr = ['The','quick','brown','fox','jumps','over','the','lazy','dog.']
 sentence = ''
@@ -139,13 +139,13 @@ arr.forEach(word)
 print(sentence) 
 // The quick brown fox jumps over the lazy dog.
 ```
-*While* 
+**While** 
 ```
 i = 0
 while(i < 10)
     print(i) // 0..9
 ```
-*Do While* 
+**Do While** 
 ```
 i = 0
 do
