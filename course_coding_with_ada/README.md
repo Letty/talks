@@ -28,7 +28,7 @@
 
 *Variables*
 
-* Constants are values, like Pi, who never change during the program
+* Constant (variables) are values, like Pi, who never change during the program
 * variables are changing values in the program
 
 *Assigning Values*
@@ -86,6 +86,7 @@
 *Switch Case*
 
 * Similar to a nested if else
+* cleaner in terms of code appearance
 * usually used for comparison (no greater or lower possible)
 * a default value can be defined
 * without breaks, multiple cases can be applied
@@ -119,10 +120,13 @@ function calcRectArea(width, height)
 
 ## Loops and Iterations
 
+* Iterating over datastructures
+* fe. applaying data preprocessing, draw something for every element in the datastructure
+
 *For*
 ```
 for(i = 0; i < 10; i++)
-    console.log(i)
+    console.log(i) // 0..9
 ```
 *ForEach* 
 ```
@@ -132,19 +136,22 @@ sentence = ''
 arr.forEach(word)
     sentence += word+' '
 
-print(sentence)
+print(sentence) 
+// The quick brown fox jumps over the lazy dog.
 ```
 *While* 
 ```
 i = 0
 while(i < 10)
-    print(i)
+    print(i) // 0..9
 ```
 *Do While* 
 ```
 i = 0
-while(i < 10)
-    print(i)
+do
+    print(i) // 0
+while(i < 0)
+    
 ```
 
 ## Cooking Algorithms
