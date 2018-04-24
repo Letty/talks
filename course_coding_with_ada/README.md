@@ -25,11 +25,13 @@
     - boolean (logical value) - true | false
     - numbers - floating and integer numbers
     - strings - everything written
+* Data Types are build in classes, but used different as "normal" classes
+* declaring a variable of a data type, lets say the number 15 `a = 15`, the programming language know, that this is a number other languages use the data type while declaring a variable `number a = 15`
 
 **Variables**
 
 * Constant (variables) are values, like Pi, who never change during the program
-* variables are changing values in the program
+* variables are changing values in the program, fe. the time changing over a day
 
 **Assigning Values**
 
@@ -122,7 +124,23 @@ function calcRectArea(width, height)
 
 * Iterating over datastructures
 * fe. applaying data preprocessing, draw something for every element in the datastructure
+* iterations can increment a number (++, i + 2, i + 10, ...) or decrement (--, i - 2, i - 10, ...)
 
+**While** 
+```
+i = 0
+while(i < 10)
+    print(i) // 0..9
+    i++
+```
+**Do While** 
+```
+i = 0
+do
+    print(i) // 0
+    i++
+while(i < 0)
+```
 **For**
 ```
 for(i = 0; i < 10; i++)
@@ -134,24 +152,11 @@ arr = ['The','quick','brown','fox','jumps','over','the','lazy','dog.']
 sentence = ''
 
 arr.forEach(word)
-    sentence += word+' '
+    sentence = sentence + word+' '
+    // short version: sentence += word + ' '
 
 print(sentence) 
 // The quick brown fox jumps over the lazy dog.
-```
-**While** 
-```
-i = 0
-while(i < 10)
-    print(i) // 0..9
-```
-**Do While** 
-```
-i = 0
-do
-    print(i) // 0
-while(i < 0)
-    
 ```
 
 ## Cooking Algorithms
@@ -198,7 +203,7 @@ function mixing(ingredients, bowl)
     return bowl
 
 function stir(bowl)
-    print('stir stir stir')
+    print('stir stir stir ' + bowl)
 
 function wait(time)
     print('i\'m waiting for some '+time)
