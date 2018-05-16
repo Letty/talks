@@ -225,10 +225,10 @@
             ```
 
 ### Examples
-* [D3js with SVG ES5](https://github.com/SensesProject/fhp-course-material/blob/master/svg_es5.html)
-* [D3js with SVG ES6](https://github.com/SensesProject/fhp-course-material/blob/master/svg_es6.html)
-* [Canvas ES5](https://github.com/SensesProject/fhp-course-material/blob/master/canvas_es5.html)
-* [Canvas ES6](https://github.com/SensesProject/fhp-course-material/blob/master/canvas_es6.html)
+* [D3js with SVG ES5](https://github.com/SensesProject/fhp-course-material/blob/master/coding_workshop_one/svg_es5.html)
+* [D3js with SVG ES6](https://github.com/SensesProject/fhp-course-material/blob/master/coding_workshop_one/svg_es6.html)
+* [Canvas ES5](https://github.com/SensesProject/fhp-course-material/blob/master/coding_workshop_one/canvas_es5.html)
+* [Canvas ES6](https://github.com/SensesProject/fhp-course-material/blob/master/coding_workshop_one/canvas_es6.html)
 
 ## Coding Workshop Two
 
